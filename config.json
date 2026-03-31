@@ -1,0 +1,43 @@
+{
+  "_comment": "Claude CTO System — No API key required. Uses local Ollama by default.",
+  "ai": {
+    "provider": "ollama",
+    "model": "llama3",
+    "temperature": 0.3,
+    "max_tokens": 4096,
+    "api_key_env": "",
+    "timeout_seconds": 500
+  },
+  "providers": {
+    "ollama": {
+      "base_url": "http://localhost:11434/api",
+      "api_key_env": ""
+    },
+    "openai": {
+      "base_url": "https://api.openai.com/v1",
+      "api_key_env": "OPENAI_API_KEY"
+    },
+    "anthropic": {
+      "base_url": "https://api.anthropic.com/v1",
+      "api_key_env": "ANTHROPIC_API_KEY"
+    }
+  },
+  "storage": {
+    "projects_file": "data/projects.json",
+    "logs_file": "data/logs.json",
+    "generated_dir": "generated_projects"
+  },
+  "planner": {
+    "max_tasks": 20,
+    "default_priority": "medium"
+  },
+  "generator": {
+    "max_files_per_task": 10,
+    "include_comments": true,
+    "include_tests": false
+  },
+  "logging": {
+    "level": "INFO",
+    "show_ai_prompts": false
+  }
+}

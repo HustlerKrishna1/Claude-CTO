@@ -1,0 +1,18 @@
+[
+  {
+    "id": "89f3142d-7766-4ac6-a78a-b69bd4ee72d6",
+    "project_id": "ceeedeba-a0ec-462f-9f9f-5bf9d893e243",
+    "event_type": "info",
+    "message": "verify",
+    "metadata": {},
+    "timestamp": "2026-03-30T22:54:48.751872"
+  },
+  {
+    "id": "9cc0844a-f646-494e-9997-6d31fc49670e",
+    "project_id": "5182b75c-2714-46b2-aecd-40bac5ac8e51",
+    "event_type": "project_created",
+    "message": "New project: give_me_a_plan",
+    "metadata": {},
+    "timestamp": "2026-03-31T07:51:33.542038"
+  }
+]

@@ -1,0 +1,16 @@
+# Claude CTO System — Python dependencies
+# Install with: pip install -r requirements.txt
+
+# ── Core (required) ───────────────────────────────────────
+typer[all]==0.12.5          # CLI framework
+rich==13.7.1                # Terminal colours, tables, progress
+requests==2.32.3            # Used by Ollama client (local AI)
+python-dotenv==1.0.1        # Optional: load .env files
+
+# ── AI providers (optional — only install what you use) ───
+# openai==1.35.3            # Uncomment for OpenAI GPT-4o
+# anthropic==0.29.0         # Uncomment for Anthropic Claude
+
+# ── Dev / Testing ─────────────────────────────────────────
+pytest==8.2.2               # Test runner
+pytest-mock==3.14.0         # Mock support

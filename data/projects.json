@@ -1,0 +1,37 @@
+{
+  "5182b75c-2714-46b2-aecd-40bac5ac8e51": {
+    "id": "5182b75c-2714-46b2-aecd-40bac5ac8e51",
+    "name": "give_me_a_plan",
+    "raw_idea": "give me a plan to build task management app for remote teams",
+    "status": "planning",
+    "parsed_idea": {
+      "project_id": "5182b75c-2714-46b2-aecd-40bac5ac8e51",
+      "raw_idea": "give me a plan to build task management app for remote teams",
+      "problem_statement": "Remote teams struggle to manage tasks efficiently, leading to decreased productivity and increased stress.",
+      "features": [
+        "Task assignment and tracking",
+        "Collaborative commenting and @mentioning",
+        "Due date reminders and notifications"
+      ],
+      "target_users": [
+        "Team leads",
+        "Project managers",
+        "Remote workers"
+      ],
+      "constraints": [
+        "Scalability for large teams"
+      ],
+      "tech_stack": [
+        "React",
+        "Node.js",
+        "MongoDB"
+      ],
+      "parsed_at": "2026-03-31T07:51:33.449440"
+    },
+    "tasks": [],
+    "generated_files": [],
+    "project_dir": "",
+    "created_at": "2026-03-31T07:51:33.522773",
+    "updated_at": "2026-03-31T07:51:33.531345"
+  }
+}
